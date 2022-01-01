@@ -1,0 +1,48 @@
+button{
+    width: 20rem;
+    height: 5rem;
+    margin: 1rem;
+    border: none;
+}
+
+button:hover{
+    background-color: lightgray;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+
+#uitloggen{
+    background-color: red;
+}
+
+#uitloggen:hover{
+    background-color: crimson;
+}
+
+.bodySection{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h2{
+    font-size: 5rem;
+}
+
+.valueSection{
+    padding: 2rem;
+}
+
+.selected{
+    border: 1rem solid black;
+}
+
+#canvas{
+    left: 0;
+    right: 0;
+    width: 48rem;
+    height: 36rem;
+}
